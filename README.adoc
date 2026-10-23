@@ -1,0 +1,46 @@
+= Temporal database review
+
+This repository contains the material of a PRISMA scoping review for temporal relational database design approaches and relational database management systems. 
+
+For many years, researchers have been working in many areas to efficiently manage time-variant data in temporal databases. This paper offers a comprehensive overview of temporal approaches for relational databases and implementation features. It aims to achieve three objectives: 
+
+. establishing a framework for evaluating design approaches based on functional and non-functional requirements; 
+. comparing the approaches identified during the review process; 
+. comparing implementation features in current relational database management systems. 
+
+We defined four functional and four non-functional requirements with a total of 65 criteria for comparing temporal design approaches. 
+These criteria include temporal data structures, temporal constraints, temporal operations, temporal implementations, availability and maintenance, compatibility and interoperability, supported query languages, and testing and validation.
+The review resulted in the examining 19 studies and 7 relational database management systems.
+Our comprehensive analysis shows that, despite significant advances in design approaches and implementations, interesting challenges remain. 
+The main findings highlight several directions for future research, including handling past indeterminacy; dealing with temporal constraints; offering native temporal operations and developing stored procedures to enhance data consistency.
+
+== Reposiroty structure
+
+We used two selection protocols for temporal design approaches and for RDBMS. 
+The dataset for the evaluation are in two folders : 'design' and 'RDBMS'.
+
+The file comparison_data.xlsx contains : 
+
+* the criteria definition en english and in french;
+* the evaluation of the selected temporal design approaches;
+* the evaluation of the selected RDBMSs;
+* the a summary of the evaluation scores.
+
+== Contact
+
+Christina Khnaisser
+Département d’informatique, Faculté des sciences, Université de Sherbrooke, Canada
+Département de médecine, Faculté de médecine et des sciences de la santé, Université de Sherbrooke, Canada
+Christina.Khnaisser@usherbrooke.ca
+
+Zeineb Zaiet
+Département d’informatique, Faculté des sciences, Université de Sherbrooke, Canada
+Zeineb.Zaiet@usherbrooke.ca
+
+== Licenses
+
+The software is licensed under
+https://forge.gouv.qc.ca/licence/en/liliq-v1-1/#strong-reciprocity-liliq-r[LILIQ-R+ version 1.1]
+
+The text and documentation is licensed under
+https://creativecommons.org/licenses/by-sa/4.0/legalcode[Creative Common CC BY SA]

@@ -1,0 +1,585 @@
+TY  - JOUR
+TI  - Transaction Management in Fully Temporal System
+AU  - Kvet, Michal
+AU  - Matiaško, Karol
+AU  - Kvet, Marek
+PY  - 
+PD  - 
+AB  - Timed data processing belongs to one of the most important task of the development of current database systems. Conventional database approach offers paradigm for current valid data processing. However, it is necessary to store and manage also historical values. Moreover, temporal system should provide structure for future valid data processing. The basic structure for processing temporal data was developed in the past, which was able to store images of objects at different time points or intervals. However, significant factor is the effectiveness of the whole system. If there is requirement to process data using transactions, the problem is more complicated. This paper deals with the new approach - column level temporal data processing with the management of transactions. This system can be, thus, defined as bi-temporal structure, but the root is uni-temporal system.
+JO  - 
+PB  - 
+CY  - 
+VL  - 
+IS  - 
+PG  - 
+SP  - 
+EP  - 
+AN  - 
+DO  - 
+UR  - 
+NS  - 
+N1  - Zeineb Zaiet (2025-10-17 06:26:37)(Select): Column Level Temporal System; 
+ER  - 
+
+TY  - CONF
+TI  - A comparative study on temporal database models: A survey
+AU  - Arora, Swati
+PY  - 2015
+PD  - 
+AB  - Time is implicit in most of the database management applications. To handle time varying data for every application using ad hoc methods is a cumbersome task. Temporal database provides an efficient solution, provides a framework for such a problem. This paper briefly introduces temporal databases and surveys the work done in the field of temporal database models. First the paper introduces the conventional database which we use today and how temporal database differs from it. We examine different time domains employed to implement such database and classification of temporal database. Finally, the paper discusses various proposed and implemented temporal models and future work in the field of temporal database.
+JO  - 2015 International Symposium on Advanced Computing and Communication (ISACC)
+PB  - IEEE
+CY  - 
+VL  - 
+IS  - 
+PG  - 161-167
+SP  - 161
+EP  - 167
+AN  - 
+DO  - 10.1109/ISACC.2015.7377335
+UR  - http://ieeexplore.ieee.org/document/7377335/
+NS  - 
+N1  - 
+ER  - 
+
+TY  - JOUR
+TI  - Sensor based transaction temporal database architecture
+AU  - Kvet, Michal
+AU  - Matiaško, Karol
+AU  - Vajsová, Monika
+PY  - 
+PD  - 
+AB  - Sensor data processing and managing is a fundamental requirement of industrial systems. Validity of these data is time bordered and should be stored in database. However, existing database solutions are inadequate in terms of performance – effectiveness of the whole system, which is manifested using the size of the managed data and processing time. This paper deals with the principles of extended temporal data modelling based on the attribute level, which is very useful for time-various sensor data processing. It deals with the transaction management problems and describes solutions. However, each sensor has defined measurement precision, thus only reliable data based on significant change are stored. This concept is mostly designed for industrial communication systems, sensor data processing, intelligent transport systems, but also for medical applications.
+JO  - 
+PB  - 
+CY  - 
+VL  - 
+IS  - 
+PG  - 
+SP  - 
+EP  - 
+AN  - 
+DO  - 
+UR  - 
+NS  - 
+N1  - Zeineb Zaiet (2025-10-17 06:25:01)(Select): Extended Column Level Temporal System et Epsilon Column Level Temporal System; 
+ER  - 
+
+TY  - JOUR
+TI  - Temporal databases: model design and commercialization prospects
+AU  - Lai, Vincent S.
+AU  - Kuilboer, Jean-Pierre
+AU  - Guynes, Jan L.
+PY  - 1994
+PD  - 
+AB  - This article presents a Temporal Enhanced Entity-Relationship (TEER) model, which shows how temporal information can be captured within a conceptual data model and extended to the relational data model. The time elements proposed for the TEER model include both transaction time and valid time. In order to support time-related queries, the query language SQL has been extended for definition, retrieval, and control of historical relations. For the commercialization of temporal databases, several technical and non-technical issues need to be resolved. This article provides a discussion of these issues and evaluates its progress toward commercialization.
+JO  - SIGMIS Database
+PB  - 
+CY  - 
+VL  - 25
+IS  - 3
+PG  - 6-18
+SP  - 6
+EP  - 18
+AN  - 
+DO  - 10.1145/190675.190676
+UR  - https://dl.acm.org/doi/10.1145/190675.190676
+NS  - 
+N1  - Zeineb Zaiet (2025-10-17 06:59:41)(Screen): Le modèle TEER; 
+ER  - 
+
+TY  - JOUR
+TI  - An Efficient and Robust Tuple Timestamp Hybrid Historical Relational Data Model
+AU  - Gandhi, Lalit
+AU  - Rishi, Rahul
+AU  - Sharma, Sonia
+PY  - 2022
+PD  - 
+AB  - This paper proposes a novel, efficient and robust tuple time stamped hybrid historical relational model for dealing with temporal data. The primary goal of developing this model is to make it easier to manage historical data robustly with minimal space requirements and retrieve it more quickly and efficiently. The model's efficiency and results were revealed when it was applied to an employee database. The proposed model's performance in terms of query execution time and space requirements is compared to a single relational data model. The obtained results show that the proposed model is approximately 20% faster than the conventional single relational data model. Memory consumption results also show that the proposed model's memory cost at different frequencies is significantly reduced, which is approximately 30% less than the single relational data model for a set of queries. Because net cost is strongly related to query execution time and memory cost, the suggested model's net cost is also significantly reduced. The proposed tuple timestamp hybrid historical model acts as generic, accurate and robust model. It provides the same functionality as previous versions, as well as hybrid functionality of previously proposed models, with a significant improvement in query execution speed and memory usage. This model is effective and reliable for the use in a wide range of temporal database fields, including insurance, geographic information systems, stocks and finance (e.g. Finacle in Banking), data warehousing, scientific databases, legal case histories, and medical records.
+JO  - International Journal on Recent and Innovation Trends in Computing and Communication
+PB  - 
+CY  - 
+VL  - 11
+IS  - 3
+PG  - 
+SP  - 
+EP  - 
+AN  - 
+DO  - 
+UR  - 
+NS  - 
+N1  - Zeineb Zaiet (2025-07-24 04:16:51)(Select): Le modèle TTHHR; 
+ER  - 
+
+TY  - JOUR
+TI  - A conceptual model for the logical design of temporal databases
+AU  - Dey, Debabrata
+AU  - Barron, Terence M.
+AU  - Storey, Veda C.
+PY  - 1995
+PD  - 
+AB  - Although widely advocated as a tool for the conceptual modelling of data, the Entity-Relationship (E-R) model [4] and its extensions are generally lacking in constructs to model the dynamic nature of the real world, making them inadequate for designing temporal databases. This research first extends the E-R model to a Temporal Event-EntityRelationship Model (TEERM), by introducing events as an additional construct. Second, a method is proposed for mapping this conceptual model into a temporal relational model for the logical design of temporal relational databases with a corresponding set of integrity constraints. The model is illustrated with an example and evaluated using a set of criteria proposed by Batini et al. [2]. The model appears to be expressive, simple and easy to use, and should, therefore, aid the temporal database design process significantly.
+JO  - Decision Support Systems
+PB  - 
+CY  - 
+VL  - 15
+IS  - 4
+PG  - 305-321
+SP  - 305
+EP  - 321
+AN  - 
+DO  - 10.1016/0167-9236(94)00044-8
+UR  - https://linkinghub.elsevier.com/retrieve/pii/0167923694000448
+NS  - 
+N1  - Zeineb Zaiet (2025-10-17 06:45:16)(Select): Le modèle TEERM; 
+ER  - 
+
+TY  - JOUR
+TI  - Anchor modeling — Agile information modeling in evolving data environments
+AU  - Rönnbäck, Lars
+AU  - Regardt, Olle
+AU  - Bergholtz, Maria
+AU  - Johannesson, Paul
+AU  - Wohed, Petia
+PY  - 2010
+PD  - 
+AB  - Maintaining and evolving data warehouses is a complex, error prone, and time consuming activity. The main reason for this state of affairs is that the environment of a data warehouse is in constant change, while the warehouse itself needs to provide a stable and consistent interface to information spanning extended periods of time. In this article, we propose an agile information modeling technique, called Anchor Modeling, that offers non-destructive extensibility mechanisms, thereby enabling robust and flexible management of changes. A key benefit of Anchor Modeling is that changes in a data warehouse environment only require extensions, not modifications, to the data warehouse. Such changes, therefore, do not require immediate modifications of existing applications, since all previous versions of the database schema are available as subsets of the current schema. Anchor Modeling decouples the evolution and application of a database, which when building a data warehouse enables shrinking of the initial project scope. While data models were previously made to capture every facet of a domain in a single phase of development, in Anchor Modeling fragments can be iteratively modeled and applied. We provide a formal and technology independent definition of anchor models and show how anchor models can be realized as relational databases together with examples of schema evolution. We also investigate performance through a number of lab experiments, which indicate that under certain conditions anchor databases perform substantially better than databases constructed using traditional modeling techniques.
+JO  - Data & Knowledge Engineering
+PB  - 
+CY  - 
+VL  - 69
+IS  - 
+PG  - 1229-1253
+SP  - 1229
+EP  - 1253
+AN  - 
+DO  - 10.1016/j.datak.2010.10.002
+UR  - 
+NS  - 
+N1  - 
+ER  - 
+
+TY  - JOUR
+TI  - T-SQL: A Lightweight Implementation to Enable Built-in Temporal Support in MVCC-Based RDBMSs
+AU  - Zhao, Z.
+AU  - Lu, W.
+AU  - Zhao, H.
+AU  - He, Z.
+AU  - Li, H.
+AU  - Pan, A.
+AU  - Du, X.
+PY  - 2023
+PD  - 
+AB  - The adoption of temporal expressions into SQL:2011 has continuously driven the extensions of temporal support in relational database systems (a.b.a. RDBMSs). In this paper, we present T-SQL, a lightweight yet efficient built-in temporal implementation in RDBMSs. T-SQL entirely relies on multi-version concurrency control (MVCC), widely adopted in RDMBSs, to manage temporal data. For temporal data, current records are maintained in legacy databases, and historical records, i.e., previous versions of current records (if any), which used to be periodically reclaimed are separately maintained in KV stores. To enable temporal query processing under SQL:2011, we extend the query engine in legacy RDBMSs to support query processing over either current records or historical records or both. Further, regarding temporal data are ever-increasing, we propose various optimizations to reduce the storage overhead of KV stores while keeping efficient query performance. We elaborate a publicly available implementation on how to integrate T-SQL into both centralized and distributed RDBMSs. We conduct extensive experiments on both YCSB and TPC-series benchmarks by comparing T-SQL with other temporal database systems. The results show that T-SQL is both lightweight and efficient.  © 1989-2012 IEEE.
+JO  - IEEE Trans Knowl Data Eng
+PB  - IEEE Computer Society
+CY  - 
+VL  - 35
+IS  - 1
+PG  - 1028-1042
+SP  - 1028
+EP  - 1042
+AN  - 
+DO  - 10.1109/TKDE.2021.3081717
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85107197709&doi=10.1109%2fTKDE.2021.3081717&partnerID=40&md5=6760a79b0960a4650e97f8d2cb862faa
+NS  - 
+N1  - 
+ER  - 
+
+TY  - CONF
+TI  - TSAPI: Enhancing Existing OLTP Databases with Temporal Query Capabilities for Analytics
+AU  - Ramanathan, C.
+AU  - Kulkarni, A.
+PY  - 2023
+PD  - 
+AB  - Time is an essential aspect of real world applications. A Temporal Query in SQL is composed of special database operators called temporal operators (e.g., AS-OF, WHEN, etc.). These are special operators that help applications perform time-based analytics on databases. Conventional OLTP (Online Transaction Processing) databases implemented using traditional RDBMS deal only with current data, that is, the data reflects modelled reality "as-of-now."On the other hand, OLAP (Online Analytical Processing) databases intended for analytics necessarily incorporate only historical data for analytics and do not cater to OLTP requirements that demands data values "as-of-now."Consequently, OLTP databases and OLAP databases are used for orthogonal purposes (transaction-processing vs historical analytics) and generally do not co-exist. In this paper, we demonstrate that the principles of temporal database design can be integrated seamlessly into existing OLTP relational databases to give the ability to run historical temporal query operators using (a) a Java-based static interactive tool and (b) a dynamic API called TSAPI (Temporal SQL API) for application development. Using this proposed approach, applications can access historical data using powerful temporal query operators without the need to implement expensive data warehousing infrastructure. The static interactive tool also automates and abstracts out the complexities associated with maintaining "in-place"historical data on entities and attributes in a selective manner exactly as per the requirements of the applications. Another unique feature of TSAPI is that it is backward compatible with existing relational database applications. In other words, the existing client applications and their underlying relational databases remain unaltered for regular use with standard SQL and JDBC. On the other hand, temporal aspects are injected into existing database schema and application code in the form of new query keywords that can be embedded in standard SQL for the applications. The conventional SQL language is supported as-is and the new temporal functionalities are offered using additional keywords for temporal data operations in a syntax just like the SQL language. The demonstration is done on a synthetic database implemented on MySQL.  © 2023 ACM.
+JO  - ACM Int. Conf. Proc. Ser.
+PB  - Association for Computing Machinery
+CY  - 
+VL  - 
+IS  - 
+PG  - 268-271
+SP  - 268
+EP  - 271
+AN  - 
+DO  - 10.1145/3570991.3571069
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85146148208&doi=10.1145%2f3570991.3571069&partnerID=40&md5=05b3de299e1b0b0aa06ccdaa46187504
+NS  - 
+N1  - 
+ER  - 
+
+TY  - CONF
+TI  - Temporal database management: Temporal registration
+AU  - Kvet, M.
+PY  - 2017
+PD  - 
+AB  - Temporal databases are characterized by significant data amount monitored over the time. Such values are stored with regards on validity during the whole time spectrum supporting decision making, reliability definition, analysis, progress monitoring and creating future prognoses. When dealing with various granulairty of changes, management must be shifted into attribute granularity level to remove duplicates. In this paper, we define our own proposed temporal architecture with regards on element registration in the system. Whereas data model, defined attributes as well as temporality definition evolve over the time, it is necessary to create complex environment and possibilities for dealing with these changes and reflections to the temporal management layer. I tis done by temporal registration concept. © 2017 IEEE.
+JO  - Proc. Int. Conf. Inf. Digit. Technol., IDT
+PB  - Institute of Electrical and Electronics Engineers Inc.
+CY  - 
+VL  - 
+IS  - 
+PG  - 227-233
+SP  - 227
+EP  - 233
+AN  - 
+DO  - 10.1109/DT.2017.8024301
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85030089151&doi=10.1109%2fDT.2017.8024301&partnerID=40&md5=e1444bd14b44f1f75a5c1755ffebe8f6
+NS  - 
+N1  - 
+ER  - 
+
+TY  - JOUR
+TI  - Relational model of temporal data based on 6th normal form
+AU  - Golec, D.
+AU  - Mahnič, V.
+AU  - Kovač, T.
+PY  - 2017
+PD  - 
+AB  - This paper brings together two different research areas, i.e. Temporal Data and Relational Modelling. Temporal data is data that represents a state in time while temporal database is a database with built-in support for handling data involving time. Most of temporal systems provide sufficient temporal features, but the relational models are improperly normalized, and modelling approaches are missing or unconvincing. This proposal offers advantages for a temporal database modelling, primarily used in analytics and reporting, where typical queries involve a small subset of attributes and a big amount of records. The paper defines a distinctive logical model, which supports temporal data and consistency, based on vertical decomposition and sixth normal form (6NF). The use of 6NF allows attribute values to change independently of each other, thus preventing redundancy and anomalies. Our proposal is evaluated against other temporal models and super-fast querying is demonstrated, achieved by database join elimination. The paper is intended to help database professionals in practice of temporal modelling. © 2017, Strojarski Facultet. All rights reserved.
+JO  - Teh. Vjesn.
+PB  - Strojarski Facultet
+CY  - 
+VL  - 24
+IS  - 5
+PG  - 1479-1489
+SP  - 1479
+EP  - 1489
+AN  - 
+DO  - 10.17559/TV-20160425214024
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85032506098&doi=10.17559%2fTV-20160425214024&partnerID=40&md5=82010352d681ea215df89de96d6bcec1
+NS  - 
+N1  - Zeineb Zaiet (2025-07-24 04:01:52)(Select): Comparaison du DDLM, Anchor model et le modèle basé sur 6FN; 
+ER  - 
+
+TY  - CONF
+TI  - A Lightweight and Efficient Temporal Database Management System in TDSQL
+AU  - Lu, W.
+AU  - Zhao, Z.
+AU  - Wang, X.
+AU  - Li, H.
+AU  - Zhang, Z.
+AU  - Shui, Z.
+AU  - Ye, S.
+AU  - Pan, A.
+AU  - Du, X.
+PY  - 2018
+PD  - 
+AB  - Driven by the recent adoption of temporal expressions into SQL:2011, extensions of temporal support in conventional database management systems (a.b.a. DBMSs) have reemerged as a research hotspot. In this paper, we present a lightweight yet efficient built-in temporal implementation in Tencent's distributed database management system, namely TDSQL. The novelty of TDSQL's temporal implementation includes: (1) a new temporal data model with the extension of SQL:2011, (2) a built-in temporal implementation with various optimizations, which are also applicable to other DBMSs, and (3) a low-storage-consumption in which only data changes are maintained. For the repeatability purpose, we elaborate the integration of our proposed techniques into MySQL. We conduct extensive experiments on both real-life dataset and synthetic TPC benchmarks by comparing TDSQL with other temporal databases. The results show that TDSQL is lightweight and efficient. © 2019 VLDB Endowment.
+JO  - Proc. VLDB Endow.
+PB  - VLDB Endowment
+CY  - 
+VL  - 12
+IS  - 12
+PG  - 2035-2046
+SP  - 2035
+EP  - 2046
+AN  - 
+DO  - 10.14778/3352063.3352122
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85074470677&doi=10.14778%2f3352063.3352122&partnerID=40&md5=ea2da1c4bb38bf20e0555223eb1a20a5
+NS  - 
+N1  - Zeineb Zaiet (2026-01-03 17:09:20)(Select): Cet article propose un modèle temporel relationnel bitemporel explicite, conçu pour être intégré de manière native dans des SGBD relationnels reposant sur le contrôle de concurrence MVCC. L’objectif principal est de dépasser les limites des solutions temporelles existantes, notamment celles de SQL:2011, en offrant une représentation plus fidèle du transaction time et une meilleure cohérence avec les mécanismes internes des bases de données modernes. Le modèle repose sur la distinction claire entre le valid time, qui représente la période durant laquelle un fait est vrai dans la réalité modélisée, et le transaction time, qui correspond à la période durant laquelle ce fait est enregistré et visible dans la base de données. Ces deux dimensions peuvent être utilisées séparément ou conjointement afin de supporter la bi-temporalité.
+
+La représentation des données temporelles est fondée sur l’utilisation d’intervalles temporels fermés–ouverts, ce qui permet d’éviter les ambiguïtés liées aux frontières temporelles et de garantir une cohérence sémantique dans les requêtes. Chaque tuple temporel est associé à des identifiants de transaction qui matérialisent explicitement les opérations de création et de suppression, permettant ainsi de reconstruire l’historique complet des données sans recourir à des mécanismes externes. La visibilité des tuples est définie à l’aide de la sémantique de snapshot isolation, ce qui assure une lecture cohérente des états passés et présents de la base, tout en respectant les propriétés transactionnelles du SGBD sous-jacent.
+
+L’article détaille également les règles d’intégrité temporelle, notamment la gestion des clés primaires et des contraintes référentielles dans un contexte temporel, ainsi que la distinction entre données courantes et historiques. En plus de la définition conceptuelle du modèle, l’article présente son intégration dans un langage de requêtes temporel compatible avec SQL:2011, tout en améliorant ses performances et sa précision sémantique. Ainsi, cet article constitue une véritable contribution de modélisation temporelle, dans laquelle le temps est traité comme une dimension fondamentale du modèle relationnel, et non comme un simple ajout applicatif ou une implémentation ad hoc.; 
+ER  - 
+
+TY  - CONF
+TI  - The chronon based model for temporal databases
+AU  - Anurag, D.
+AU  - Sen, A.K.
+PY  - 2008
+PD  - 
+AB  - Among various models like TSQL2, XML and SQL:2003 for temporal databases, TSQL2 is perhaps the most comprehensive one and introduces new constructs for temporal query support. However, these constructs mask the user from the underlying conceptual model and essentially provides a "black box" flavour. Further, the temporal attributes are not directly accessible. In this paper, we propose a "chronon" based conceptual (relational) model, which works on a tuple timestamping paradigm. Here, the time attribute is treated in similar fashion as any other attribute and is available to the user for inclusion in SQL statements, making the model easy to understand and use. A corresponding efficient physical model based on the attribute versioning format akin to XML/SQL:2003 has also been proposed and the mapping between the proposed conceptual and physical models has been described. We evaluate the model by comparing with TSQL2 and SQL:2003. © 2008 Springer-Verlag Berlin Heidelberg.
+JO  - Lect. Notes Comput. Sci.
+PB  - 
+CY  - 
+VL  - 4947 LNCS
+IS  - 
+PG  - 461-469
+SP  - 461
+EP  - 469
+AN  - 
+DO  - 10.1007/978-3-540-78568-2_35
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-47249132021&doi=10.1007%2f978-3-540-78568-2_35&partnerID=40&md5=6e9aae292b6c3c5304f3ad75aa8e6070
+NS  - 
+N1  - Zeineb Zaiet (2025-08-09 01:23:00)(Select): Le modèle Chronon, conçu pour ne comporter qu’un seul attribut temporel (il est unitemporel, par exemple, le temps de validité)...Pour l’ensemble d’une relation, la granularité choisie ici est le jour : cela signifie qu’à chaque jour, un nouveau tuple est enregistré dans la table, qu’il y ait eu modification des attributs ou pas.
+Cette opération de sauvegarde quotidienne se fait automatiquement et conceptuellement, jusqu’à ce que le tuple soit supprimé.
+Pour les projections temporelles, ils utilisent le MERGE BY. À la fin, ils ont comparé le modèle chronon,TSQL2 et SQL:2003; 
+ER  - 
+
+TY  - CONF
+TI  - A temporal database management system implemented on top of a conventional database
+AU  - Edelweiss, N.
+AU  - Hübler, P.N.
+AU  - Moro, M.M.
+AU  - Demartini, G.
+PY  - 2000
+PD  - 
+AB  - Temporal data models have proven to be convenient to specify applications, allowing the representation of the temporal evolution of data. Several temporal data models were proposed in the last 20 years with this purpose, but no commercial implementation of a temporal database is still available. This paper presents an integrated temporal database environment implemented on top of a conventional database. Using this environment, a user can handle the specification, the data definition and the queries as though the database implements the temporal data model. The environment performs the mapping from the temporal conceptual schema to the correspondent database, and of the queries expressed in the temporal query language to SQL. Data definition is controlled based on the state transition rules of the temporal data model, keeping thus the temporal integrity of the database. The underlying conventional database keeps transparent to the user. © 2000 IEEE.
+JO  - Proc. Int. Conf. Chilean Comput. Sci. Soc. SCCC
+PB  - IEEE Computer Society
+CY  - 
+VL  - 2000-January
+IS  - 
+PG  - 58-67
+SP  - 58
+EP  - 67
+AN  - 
+DO  - 10.1109/SCCC.2000.890392
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84949484140&doi=10.1109%2fSCCC.2000.890392&partnerID=40&md5=767d156be72d1b1901424cec321d125a
+NS  - 
+N1  - Zeineb Zaiet (2026-01-01 17:29:54)(Select): le modèle temporel TF-ORM; 
+ER  - 
+
+TY  - JOUR
+TI  - A logical reconstruction of temporal databases
+AU  - Finger, M.
+PY  - 2000
+PD  - 12/
+AB  - Traditional approaches to temporal databases are either not formal or deal only with static features, considering mainly a single state of the database. The temporal nature of data in temporal databases, however, is intrinsically dynamic, for it deals with the evolution of data. In this work, a temporal logic framework is proposed to simultaneously cope with both the static and the dynamic aspects of temporal data. The framework consists of a two-dimensional temporal model. One-dimensional temporal models deal with static aspects such as temporal querying and data representation. The second temporal dimension is introduced as a natural extension that captures the dynamics of temporal updates. The resulting two-dimensional temporal model is used to formally characterize the differences between valid time and transaction time, to characterize the notion of `now' in a temporal database, and to give a formal model for bitemporal databases.
+JO  - Journal of Logic and Computation
+PB  - Oxford University Press
+CY  - UK
+VL  - 10
+IS  - 6
+PG  - 847-76
+SP  - 847
+EP  - 76
+AN  - 
+DO  - 10.1093/logcom/10.6.847
+UR  - 
+NS  - 
+N1  - Zeineb Zaiet (2026-01-05 16:41:11)(Select): Cet article propose une reconstruction logique des bases de données temporelles visant à fournir un cadre théorique unifié et rigoureux pour la modélisation et l’interprétation de la dimension temporelle dans les bases de données. Partant du constat que de nombreuses propositions temporelles existantes reposent sur des extensions ad hoc du modèle relationnel, les auteurs cherchent à identifier les fondements logiques communs permettant de représenter formellement l’évolution des données dans le temps.
+
+Le travail s’appuie sur une approche logique déclarative, dans laquelle une base de données temporelle est interprétée comme un ensemble de bases de données instantanées (snapshots), chacune correspondant à un instant ou un intervalle temporel donné. La temporalité n’est pas intégrée directement dans la structure relationnelle, mais reconstruite à partir de prédicats logiques reliant les faits aux instants temporels auxquels ils sont valides. Cette reconstruction permet de définir précisément la sémantique des notions clés des bases de données temporelles, telles que le temps de validité, le temps de transaction et la bitemporalité, sans dépendre d’un schéma physique particulier.
+
+Les auteurs montrent que différentes approches existantes — point-based, interval-based ou basées sur des relations temporelles enrichies — peuvent être vues comme des cas particuliers de ce cadre logique général. Cette formalisation facilite la comparaison entre modèles temporels et clarifie les hypothèses implicites sous-jacentes à leurs mécanismes de stockage et de requêtage. En outre, l’approche permet d’exprimer les requêtes temporelles comme des formules logiques évaluées sur des reconstructions temporelles, offrant ainsi une base formelle pour raisonner sur la correction et l’expressivité des langages de requêtes temporels.; 
+ER  - 
+
+TY  - CONF
+TI  - Preference-aware integration of temporal data
+AU  - Alexe, Bogdan
+AU  - Roth, Mary
+AU  - Tan, Wang-Chiew
+PY  - 2014
+PD  - 
+AB  - A complete description of an entity is rarely contained in a single data source, but rather, it is often distributed across different data sources. Applications based on personal electronic health records, sentiment analysis, and financial records all illustrate that significant value can be derived from integrated, consistent, and queryable profiles of entities from different sources. Even more so, such integrated profiles are considerably enhanced if temporal information from different sources is carefully accounted for. We develop a simple and yet versatile operator, called PRAWN, that is typically called as a final step of an entity integration workflow. PRAWN is capable of consistently integrating and resolving temporal conflicts in data that may contain multiple dimensions of time based on a set of preference rules specified by a user (hence the name PRAWN for preference-aware union). In the event that not all conflicts can be resolved through preferences, one can enumerate each possible consistent interpretation of the result returned by PRAWN at a given time point through a polynomialdelay algorithm. In addition to providing algorithms for implementing PRAWN, we study and establish several desirable properties of PRAWN. First, PRAWN produces the same temporally integrated outcome, modulo representation of time, regardless of the order in which data sources are integrated. Second, PRAWN can be customized to integrate temporal data for different applications by specifying application-specific preference rules. Third, we show experimentally that our implementation of PRAWN is feasible on both "small" and "big" data platforms in that it is efficient in both storage and execution time. Finally, we demonstrate a fundamental advantage of PRAWN: we illustrate that standard query languages can be immediately used to pose useful temporal queries over the integrated and resolved entity repository. © 2014 VLDB Endowment 21508097/14/12.
+JO  - 
+PB  - Association for Computing Machinery
+CY  - Seoul, Korea, Republic of
+VL  - 8
+IS  - 4
+PG  - 365-376
+SP  - 365
+EP  - 376
+AN  - 
+DO  - 10.14778/2735496.2735500
+UR  - 
+NS  - 
+N1  - Christina Khnaisser (2025-11-21 03:40:15)(Screen): Très important à lire ! ; Zeineb Zaiet (2026-01-03 16:58:26)(Select): L’article Preference-aware Integration of Temporal Data traite du problème de l’intégration de données temporelles hétérogènes et conflictuelles provenant de sources multiples, où les informations relatives à une même entité sont fragmentées, imprécises dans le temps et parfois contradictoires. Les auteurs partent du constat que les systèmes classiques d’intégration de données et les bases temporelles existantes ne suffisent pas à résoudre les conflits temporels lorsque les données arrivent hors ordre ou lorsqu’aucune interprétation temporelle unique ne peut être déduite automatiquement. Pour répondre à cette problématique, ils introduisent PRAWN (Preference-Aware uNion), un opérateur d’intégration temporelle fondé sur des règles de préférence définies par l’utilisateur, et non un nouveau modèle de données temporelles. L’approche s’appuie sur un modèle de données hiérarchique basé sur les relations imbriquées (nested relations), adapté aux formats XML et JSON, dans lequel les valeurs sont annotées par des contextes temporels multidimensionnels permettant de représenter précisément les périodes pendant lesquelles une information est vraie. Le temps est modélisé comme discret et linéaire, avec des intervalles fermés-ouverts et plusieurs dimensions temporelles possibles, telles que asof et knownsince, et la notion de snapshot est utilisée pour définir l’état de la base à un point temporel donné, où les contraintes d’intégrité, notamment les clés, doivent être respectées. PRAWN fusionne deux instances temporelles en ajustant dynamiquement les contextes temporels des valeurs conflictuelles selon des règles de préférence déclaratives, tout en garantissant des propriétés algébriques essentielles — idempotence, commutativité et associativité — qui assurent que le résultat de l’intégration est indépendant de l’ordre d’arrivée des données. Lorsque les préférences ne permettent pas de résoudre tous les conflits, l’approche conserve les valeurs concurrentes et établit un lien formel avec la théorie des bases de données incohérentes, en montrant que chaque interprétation temporelle cohérente correspond à une réparation optimale pouvant être énumérée par un algorithme à délai polynomial. Les auteurs démontrent la polyvalence de PRAWN en montrant qu’il peut capturer différentes sémantiques d’intégration, telles que l’archivage de versions, les mises à jour bitemporelles ou l’intégration de données réglementaires comme celles de la SEC, simplement en adaptant les dimensions temporelles et les règles de préférence. Des expérimentations menées sur des jeux de données réels et massifs, notamment SWISS-PROT, Gene Ontology, des données de la SEC et des flux Twitter, montrent que l’approche est compacte, scalable et parallélisable, et que les archives temporelles produites restent directement interrogeables à l’aide de requêtes temporelles standard de type timeslice et range timeslice. En conclusion, l’article propose une solution formelle, générique et efficace pour l’intégration de données temporelles conflictuelles, en mettant l’accent sur la résolution par préférences plutôt que sur la définition d’un nouveau modèle temporel, et ouvre des perspectives de recherche sur les préférences dépendantes du temps, l’indexation temporelle et l’interrogation cohérente de bases temporelles potentiellement incohérentes.; 
+ER  - 
+
+TY  - CONF
+TI  - The Chronus II temporal database mediator
+AU  - O'Connor, M.J.
+AU  - Tu, S.W.
+AU  - Musen, M.A.
+PY  - 2002
+PD  - /
+AB  - Clinical databases typically contain a significant amount of temporal information. This information is often crucial in medical decision-support systems. Although temporal queries are common in clinical systems, the medical informatics field has no standard means for representing or querying temporal data. Over the past decade, the temporal database community has made a significant amount of progress in temporal systems. Much of this research can be applied to clinical database systems. This paper outlines a temporal database mediator called Chronus II. Chronus II extends the standard relational model and the SQL query language to support temporal queries. It provides an expressive general-purpose temporal query language that is tuned to the querying requirements of clinical decision support systems. This paper describes how we have used Chronus Il to tackle a variety of clinical problems in decision support systems developed by our group.
+JO  - 
+PB  - American Medical Informatics Assoc.
+CY  - Bethesda, MD, USA
+VL  - 
+IS  - Copyright 2004, IEE
+PG  - 567-71
+SP  - 567
+EP  - 71
+AN  - 
+DO  - 
+UR  - 
+NS  - 
+N1  - 
+ER  - 
+
+TY  - CONF
+TI  - PMTV: A schema versioning approach for bioral databases
+AU  - Wei, Han-Chieh
+AU  - Elmasri, Ramez
+PY  - 2000
+PD  - 
+AB  - Most of the existing schema versioning approaches are developed for single time-dimension temporal databases. For bioral databases, which allow both retroactive and proactive updates to the schema and database, these approaches introduce many problems and perform inefficiently. We first review two schema versioning approaches, single table versioning (STV) and multiple table versioning (MTV) approaches, and also the proposed partial multiple table versioning (PMTV) approach. We prove the correctness of PMTV by showing it producing equivalent results to STV and then compare these three approaches in database conversion and temporal query processing. The comparison shows that the proposed PMTV approach not only solves the problems but also performs more efficiently than the other approaches when applied to bioral databases. © 2000 IEEE.
+JO  - 
+PB  - Institute of Electrical and Electronics Engineers Inc.
+CY  - Cape Breton, NS, Canada
+VL  - 2000-January
+IS  - Compendex
+PG  - 143-151
+SP  - 143
+EP  - 151
+AN  - 
+DO  - 10.1109/TIME.2000.856595
+UR  - 
+NS  - 
+N1  - 
+ER  - 
+
+TY  - CONF
+TI  - CME: A temporal relational model for efficient coalescing
+AU  - Al-Kateb, Mohammed
+AU  - Mansour, Essam
+AU  - El-Sharkawi, Mohamed E.
+PY  - 2005
+PD  - 
+AB  - Coalescing is a data restructuring operation applicable to temporal databases. It merges timestamps of adjacent or overlapping tuples that have identical attribute values. The likelihood that a temporal query employs coalescing is very high. However, coalescing is an expensive and time consuming operation. In this paper1 we present a novel temporal relational model through which coalescing becomes quite simple. The basic idea is to augment each time-varying attribute in a temporal relation with two additional attributes that trace changes in values of the corresponding time-varying attribute. One attribute traces changes in values with respect to each individual instance (i.e. tuples having the same key value), while the other attribute traces changes in values globally for all instances (i.e. all tuples in the temporal relation). Using these tracing attributes, coalescing could be easily implemented through a quite simple join-free group-by query. The coalescing query is fully processed and optimized by the underlying database management system. © 2005 IEEE.
+JO  - 
+PB  - Institute of Electrical and Electronics Engineers Inc.
+CY  - Burlington, VT, United states
+VL  - 
+IS  - Compendex
+PG  - 83-89
+SP  - 83
+EP  - 89
+AN  - 
+DO  - 10.1109/TIME.2005.16
+UR  - 
+NS  - 
+N1  - Christina Khnaisser (2025-11-21 03:44:11)(Screen): Vérifier l'implémentation du Coalescing (PACK/UNPACK); 
+ER  - 
+
+TY  - CONF
+TI  - Past indeterminacy in data warehouse design
+AU  - Khnaisser, C.
+AU  - Lavoie, L.
+AU  - Burgun, A.
+AU  - Ethier, J.-F.
+PY  - 2017
+PD  - 
+AB  - Traditional data warehouse design methods do not fully address some important challenges, particularly temporal ones. Among them past indeterminacy is not handled systematically and uniformly. Furthermore, most methods published until now present transformation approaches by providing examples rather than general and systematic transformation rules. As a result, real-world applications require manual adaptations and implementations. This hinders scalability, long-term maintenance and increases the risk of inconsistency in case of manual implementation. This article extends the Unified Bitemporal Historicization Framework with a set of specifications and a deterministic process that defines simple steps for transforming a non-historical database schema into a historical schema allowing data evolution and traceability, including past and future indeterminacy. The primary aim of this work is to help data warehouse designers to model historicized schema based on a sound theory ensuring a sound temporal semantic, data integrity and query expressiveness. © 2017 Elsevier B.V., All rights reserved.
+JO  - Lecture Notes in Computer Science
+PB  - 
+CY  - 
+VL  - 10439 LNCS
+IS  - 
+PG  - 90-100
+SP  - 90
+EP  - 100
+AN  - 
+DO  - 10.1007/978-3-319-64471-4_9
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85028474237&doi=10.1007%2F978-3-319-64471-4_9&partnerID=40&md5=c3a16a00bbd4adb8fa274d8442edb812
+NS  - 
+N1  - Zeineb Zaiet (2025-12-02 06:15:10)(Select): source dans zotero; 
+ER  - 
+
+TY  - JOUR
+TI  - Temporal data modelling and integrity constraints in relational databases*
+AU  - Tansel, A.U.
+PY  - 2024
+PD  - 
+AB  - There are key issues in temporal relational data modelling such as representation of temporal data, temporal grouping identifiers, primary keys of temporal relations and temporal integrity constraints. Temporal grouping is a fundamental aspect of temporal data modelling and is the basis for the specification and enforcement of temporal integrity constraints. We extend and generalize traditional integrity constraints for the temporal domain by formally defining the temporal grouping identifier and show how it can replace a temporal primary key like a temporal atom, a temporal integrity constraint has a data and a temporal component. We also introduce the notion of consistent evolution of a temporal database that lays the foundation for an efficient implementation of temporal integrity constraints. We also provide clauses that need to be added to SQL for specifying the temporal integrity constraints. © 2024 Elsevier B.V., All rights reserved.
+JO  - International Journal of Computer Mathematics: Computer Systems Theory
+PB  - 
+CY  - 
+VL  - 9
+IS  - 1
+PG  - 1-20
+SP  - 1
+EP  - 20
+AN  - 
+DO  - 10.1080/23799927.2023.2300083
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85183937493&doi=10.1080%2F23799927.2023.2300083&partnerID=40&md5=94cc4993b55acf9832cd64b358fb3ad7
+NS  - 
+N1  - Zeineb Zaiet (2026-01-03 13:40:03)(Select): L’article analyse la problématique de la représentation et du contrôle de l’intégrité des données dans les bases de données temporelles et montre que les concepts classiques du modèle relationnel, notamment la clé primaire et les contraintes d’intégrité traditionnelles, ne sont pas suffisants lorsque les données évoluent dans le temps. Les auteurs comparent deux approches de modélisation temporelle, le tuple time stamping et l’attribute time stamping, et mettent en évidence leurs implications sur la gestion des dépendances fonctionnelles, des clés et des contraintes. Afin de surmonter les limites des clés primaires temporelles, ils introduisent le concept de Temporal Grouping Identifier (TGI), qui permet d’identifier un objet indépendamment du temps et de regrouper l’ensemble de son historique temporel, y compris en présence d’attributs multivalués. L’article généralise ensuite les contraintes d’intégrité classiques en y ajoutant une dimension temporelle, en distinguant l’intégrité d’existence temporelle, l’intégrité référentielle temporelle et les contraintes de domaine temporelles, lesquelles deviennent des contraintes multi-états pouvant être synchrones ou asynchrones. Ces contraintes possèdent à la fois une composante de données et une composante temporelle, et leur validité peut évoluer au cours du temps, en particulier dans les bases bitemporelles qui gèrent simultanément le temps de validité et le temps de transaction. Enfin, les auteurs proposent une extension conceptuelle du langage SQL permettant de définir explicitement des contraintes temporelles et des identificateurs de groupement temporel, et concluent que le temps doit être considéré comme une dimension sémantique fondamentale de la modélisation des bases de données, nécessitant des mécanismes dédiés pour garantir la cohérence et l’intégrité des données historiques.; 
+ER  - 
+
+TY  - CONF
+TI  - Transformation of Relational Databases to Transaction-Time Temporal Databases
+AU  - J. M´te
+AU  - J. Safarik
+PY  - 2011
+PD  - 
+AB  - In recent years, versioning has emerged as a very popular operating system feature for file systems. Some of these systems can provide user friendly â€œgo back in timeâ€ feature, where the user can see exactly how file system looked on the dates he specifies. The advantages of these techniques are however, not present or supported by most relational database systems used worldwide. Using versioning in relational databases we can decrease the complexity of information systems, provide new functionality, increase the security and usually decrease the administration costs. In this paper we present an approach to transformation of the snapshot relational database to temporal database with tuple time-stamping. The transformation is achieved by automatic database schema extension and modification. Information system which uses the transformed database schema remain intact, or requires minimal modifications. The automatic transformation can be applied on PostgreSQL relational databases, however similar or same transformations can be used in other relational databases.
+JO  - 2011 Second Eastern European Regional Conference on the Engineering of Computer Based Systems
+PB  - 
+CY  - 
+VL  - 
+IS  - 
+PG  - 27-34
+SP  - 27
+EP  - 34
+AN  - 
+DO  - 10.1109/ECBS-EERC.2011.14
+UR  - 
+NS  - 
+N1  - Zeineb Zaiet (2025-10-17 06:35:39)(Screen): description formelle du modèle, transaction time, tuple timestamping, utilisation des rules; 
+ER  - 
+
+TY  - CONF
+TI  - A relative analysis of modern temporal data models
+AU  - S. Kumar
+AU  - R. Rishi
+PY  - 2016
+PD  - 
+AB  - 
+JO  - 2016 3rd International Conference on Computing for Sustainable Global Development (INDIACom)
+PB  - 
+CY  - 
+VL  - 
+IS  - 
+PG  - 2851-2855
+SP  - 2851
+EP  - 2855
+AN  - 
+DO  - 
+UR  - 
+NS  - 
+N1  - 
+ER  - 
+
+TY  - JOUR
+TI  - Temporal features in SQL:2011
+AU  - Kulkarni, K.
+AU  - Michels, J.-E.
+PY  - 2012
+PD  - 
+AB  - SQL:2011 was published in December of 2011, replacing SQL:2008 as the most recent revision of the SQL standard. This paper covers the most important new functionality that is part of SQL:2011: the ability to create and manipulate temporal tables.
+JO  - SIGMOD Record
+PB  - 
+CY  - 
+VL  - 41
+IS  - 3
+PG  - 34-43
+SP  - 34
+EP  - 43
+AN  - 
+DO  - 10.1145/2380776.2380786
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84867535859&doi=10.1145%2F2380776.2380786&partnerID=40&md5=ad1c8c027c0d0af6697bbb59072cca89
+NS  - 
+N1  - 
+ER  - 
+
+TY  - CONF
+TI  - TempR-PDM: A Conceptual Temporal Relational Model for Managing Patient Data
+AU  - Burney, A.
+AU  - Mahmood, N.
+AU  - Ahsan, K.
+PY  - 2010
+PD  - /
+AB  - Time is one of the most difficult aspects to handle in real world applications, especially in database systems. Relational database management systems proposed by Codd offer very little built-in support for managing time varying data and theory of temporal semantics. Many temporal extensions of the relational model have been proposed and some of them are also implemented. The proposed system is based on an ontology of health Care terminology including patients vital data, activities and as well as the treatment data. We will propose a conceptual temporal model for handling time varying attributes in the relational database model with minimal temporal attributes. The proposed model is easy to define, manage and incorporates the important and relevant features in the target temporal relational model. Furthermore we have illustrated implementation of the model on patient database and also present the requirement analysis: work flow for managing patients in hospital environment. In response to rising health care costs, reliability, privacy, security and changing expectations concerning the quality of health care, data management is very important in improving health care services.
+JO  - 
+PB  - WSEAS Press
+CY  - Athens, Greece
+VL  - 
+IS  - Copyright 2010, The Institution of Engineering and Technology
+PG  - 237-43
+SP  - 237
+EP  - 43
+AN  - 
+DO  - 
+UR  - 
+NS  - 
+N1  - 
+ER  - 
+
